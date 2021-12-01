@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screen/getx_state/getx_controller.dart';
+import 'package:flutter_application_1/screen/getxstate/getx_controller.dart';
 import 'package:get/get.dart';
 
 class OnUpdateScreen extends StatefulWidget {

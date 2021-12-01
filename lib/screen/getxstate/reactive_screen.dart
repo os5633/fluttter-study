@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screen/getx_state/getx_controller.dart';
+import 'package:flutter_application_1/screen/getxstate/getx_controller.dart';
 import 'package:get/get.dart';
 
 class ReactiveScreen extends StatefulWidget {
@@ -63,7 +63,7 @@ class _ReactiveScreenState extends State<ReactiveScreen> {
             ),
             ElevatedButton(
               onPressed: () {
-                controller.change(2, "권오성2");
+                controller.change(2, "코드팩토리");
               },
               child: const Text("Change User"),
             )
