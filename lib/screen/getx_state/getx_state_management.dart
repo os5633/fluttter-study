@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screen/getxstate/on_update_screen.dart';
-import 'package:flutter_application_1/screen/getxstate/reactive_screen.dart';
+import 'package:flutter_application_1/screen/getx_state/on_update_screen.dart';
+import 'package:flutter_application_1/screen/getx_state/reactive_screen.dart';
 import 'package:get/get.dart';
 
 class GetXStateManagement extends StatefulWidget {
