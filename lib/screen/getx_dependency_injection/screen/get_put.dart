@@ -18,7 +18,7 @@ class GetPut extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 print(Get.find<DependencyController>().hashCode);
-                Get.find<DependencyController>().increment();
+                DependencyController.to.increment();
               },
               child: const Text("+"),
             )
