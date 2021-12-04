@@ -28,6 +28,12 @@ class _StudyListState extends State<StudyList> {
               Get.toNamed('/getx_pattern');
             },
             title: const Text("GetX Pattern"),
+          ),
+          ListTile(
+            onTap: () {
+              Get.toNamed('/getx_state2');
+            },
+            title: const Text("GetX State2"),
           )
         ],
       ),
