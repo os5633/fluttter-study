@@ -8,7 +8,7 @@ class HomeController extends GetxController {
   HomeController({required this.repository});
 
   final _postsList = <MyModel>[].obs;
-  get postList => _postsList.value;
+  get postList => _postsList;
   set postList(value) => _postsList.value = value;
 
   final _post = MyModel().obs;
