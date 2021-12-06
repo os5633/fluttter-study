@@ -4,6 +4,8 @@ import 'package:flutter_application_1/screen/getx_pattern/route/app_pages.dart';
 import 'package:get/get.dart';
 
 class HomeController extends GetxController {
+  static HomeController get to => Get.find();
+
   final MyRepository repository;
   HomeController({required this.repository});
 
